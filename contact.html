@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - TechWorld</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <a href="index.html" class="logo"
+      style="display: flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--text-main); font-size: 1.5rem; font-weight: bold;">
+      <img src="images/logo.png" alt="TechWorld Logo">
+      <span>TechWorld</span>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="login.html" class="btn">Login / Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="container" style="min-height: 80vh;">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-grid">
+
+
+      <div class="contact-info">
+        <h3 style="margin-bottom: 2rem; color:var(--primary); font-size: 1.5rem;">Contact Information</h3>
+        <p>
+          <span style="font-size: 1.5rem; color:var(--primary);">📍</span>
+          <span><strong>Address:</strong> TechWorld Campus,Hitech City,Hyderabad, Telangana, India 500075</span>
+        </p>
+        <p>
+          <span style="font-size: 1.5rem; color:var(--primary);">📧</span>
+          <span><strong>Email:</strong> support@techworld.in</span>
+        </p>
+        <p>
+          <span style="font-size: 1.5rem; color:var(--primary);">📞</span>
+          <span><strong>Phone:</strong> +91 98765 43210</span>
+        </p>
+
+        <div style="margin-top: 3rem;">
+          <h4 style="color:var(--text-muted); margin-bottom: 1rem;">Working Hours</h4>
+          <p style="margin-bottom:0.5rem; font-size:0.9rem;">Monday - Friday: 9:00 AM to 6:00 PM IST</p>
+          <p style="margin-bottom:0.5rem; font-size:0.9rem;">Saturday: 10:00 AM to 4:00 PM IST</p>
+        </div>
+      </div>
+
+
+      <div class="form-container" style="margin: 0; padding: 2rem;">
+        <h3 style="margin-bottom: 1.5rem; color:var(--primary);">Send us an Inquiry</h3>
+        <form onsubmit="alert('Message Sent successfully We will contact you soon.'); return false;">
+          <div class="form-group">
+            <label for="contact-name">Name</label>
+            <input type="text" id="contact-name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Email</label>
+            <input type="email" id="contact-email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" rows="5" placeholder="How can we help you?" required></textarea>
+          </div>
+          <button type="submit" class="btn" style="width:100%;">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 TechWorld. All Rights Reserved.</p>
+  </footer>
+
+</body>
+
+</html>
