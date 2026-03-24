@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Details - TechWorld</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo" style="display: flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--text-main); font-size: 1.5rem; font-weight: bold;">
+      <img src="images/logo.png" alt="TechWorld Logo">
+      <span>TechWorld</span>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html" class="active">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html" class="btn">Login / Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="container">
+    <div class="course-detail-grid">
+      
+      <div>
+        <div class="course-header">
+          <h2 style="font-size:2.5rem; margin-bottom:0.5rem;">Full-Stack Web Development</h2>
+          <p class="instructor" style="font-size:1.1rem;">Instructor: <strong>John Doe</strong> - Senior Software Engineer</p>
+          <p class="rating">★★★★★ (4.8) | 12,456 Students</p>
+        </div>
+
+        <div style="margin-bottom: 2rem;">
+          <h3 style="margin-bottom: 1rem; color:var(--primary);">Course Description</h3>
+          <p style="color:var(--text-muted);">Become a full-stack web developer with just one course. HTML, CSS, Javascript, Node, React, MongoDB, build real projects from scratch. This comprehensive bootcamp will take you from a complete beginner to an advanced developer. We cover everything you need to know to land a job or build your dream app.</p>
+        </div>
+
+        <div>
+          <h3 style="margin-bottom: 1rem; color:var(--primary);">Curriculum</h3>
+          <ul class="curriculum-list">
+            <li>Section 1: Frontend Basics (HTML & CSS)</li>
+            <li>Section 2: JavaScript Deep Dive</li>
+            <li>Section 3: DOM Manipulation and Events</li>
+            <li>Section 4: Backend Engineering with Node.js</li>
+            <li>Section 5: React & State Management</li>
+            <li>Section 6: Full-stack Capstone Project</li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <div class="card" style="padding:1.5rem; position:sticky; top:100px;">
+          <img src="images/course1.jpg" alt="Course Thumbnail" class="card-img" style="border-radius:6px; margin-bottom:1.5rem;">
+          <div style="font-size: 2rem; font-weight:bold; color:var(--primary); margin-bottom:1rem;">₹3,999</div>
+          
+          <ul style="list-style:none; color:var(--text-muted); margin-bottom:2rem; line-height:2;">
+            <li><strong>Duration:</strong> 40.5 Hours on-demand video</li>
+            <li><strong>Access:</strong> Lifetime access</li>
+            <li><strong>Certificate:</strong> Certificate of completion</li>
+          </ul>
+
+          <button class="btn" style="width:100%; font-size:1.1rem; padding:1rem;" onclick="alert('Proceeding to checkout...')">Enroll Now</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 TechWorld. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

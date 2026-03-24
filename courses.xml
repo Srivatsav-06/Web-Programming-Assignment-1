@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="courses.xsd">
+    
+    <course>
+        <id>1</id>
+        <title>Full-Stack Web Development</title>
+        <instructor>John Doe</instructor>
+        <price currency="INR">3999</price>
+        <rating>4.8</rating>
+        <duration>40.5 Hours</duration>
+    </course>
+    
+    <course>
+        <id>2</id>
+        <title>Python Masters Bootcamp</title>
+        <instructor>Jane Smith</instructor>
+        <price currency="INR">2999</price>
+        <rating>4.6</rating>
+        <duration>30 Hours</duration>
+    </course>
+    
+    <course>
+        <id>3</id>
+        <title>UI/UX Design Principles</title>
+        <instructor>Alice Johnson</instructor>
+        <price currency="INR">2499</price>
+        <rating>4.9</rating>
+        <duration>25 Hours</duration>
+    </course>
+    
+    <course>
+        <id>4</id>
+        <title>Data Science and Machine Learning</title>
+        <instructor>Sarah Lee</instructor>
+        <price currency="INR">4499</price>
+        <rating>4.7</rating>
+        <duration>50 Hours</duration>
+    </course>
+    
+    <course>
+        <id>5</id>
+        <title>Mobile App Development with Flutter</title>
+        <instructor>Michael Brown</instructor>
+        <price currency="INR">3499</price>
+        <rating>4.5</rating>
+        <duration>35 Hours</duration>
+    </course>
+    
+    <course>
+        <id>6</id>
+        <title>Cloud Computing with AWS</title>
+        <instructor>David Wilson</instructor>
+        <price currency="INR">3999</price>
+        <rating>4.8</rating>
+        <duration>45 Hours</duration>
+    </course>
+
+</courses>
